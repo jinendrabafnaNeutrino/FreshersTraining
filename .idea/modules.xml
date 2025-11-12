@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/TypeCasting.iml" filepath="$PROJECT_DIR$/TypeCasting.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/TrainingTaskDa1.iml" filepath="$PROJECT_DIR$/TrainingTaskDa1.iml" />
+>>>>>>> b2dae09 (Add full source code including src folder)
     </modules>
   </component>
 </project>

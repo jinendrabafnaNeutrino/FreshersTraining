@@ -1,4 +1,5 @@
 public class StringExample {
+<<<<<<< HEAD
     public static void main(String[] args) {
         String original = "Hello World";
 
@@ -15,3 +16,13 @@ public class StringExample {
     }
 }
 
+=======
+    public static void main(StringExample[] args) {
+        String str = "Sahil";
+        StringBuilder sb = new StringBuilder(str);
+        sb.reverse();
+        System.out.println(sb);
+
+    }
+}
+>>>>>>> b2dae09 (Add full source code including src folder)
