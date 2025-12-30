@@ -2,7 +2,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Cond_Method {
+import java.time.Duration;
+
+public class Syncronization {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
@@ -12,8 +14,9 @@ public class Cond_Method {
 
         driver.findElement(By.className("ico-register")).click();
 
-        //syncronzation
-        Thread.sleep(3000);
+        //implicitly Wait
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
         boolean enableStatus = driver.findElement(By.id("FirstName")).isEnabled();
         System.out.println("isEnabled : " + enableStatus);
 
@@ -26,3 +29,4 @@ public class Cond_Method {
         driver.quit();
     }
 }
+
